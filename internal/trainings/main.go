@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
-	server "github.com/nikodemkirsz/wild-workouts/internal/common"
-	ports "github.com/nikodemkirsz/wild-workouts/internal/trainings"
+	"github.com/nikodem-kirsz/wild-workouts/internal/common/server"
+	"github.com/nikodem-kirsz/wild-workouts/internal/trainings/ports"
 )
 
 func main() {
